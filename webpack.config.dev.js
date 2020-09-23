@@ -17,7 +17,7 @@ export default {
   plugins: [
 		// Create HTML file that includes reference to bundled JS
 		new HtmlWenpackPlugin({
-			template: 'src/index.index',
+			template: 'src/index.html',
 			inject: true
 		})
 	],

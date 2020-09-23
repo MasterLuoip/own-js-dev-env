@@ -11,9 +11,9 @@ getUsers().then(result => {
 		</tr>`
 	});
 	
-	global.document.getElementById('users').innerHTML = usersBody;
+  global.document.getElementById('users').innerHTML = usersBody;
 
-	const deleteLinks = global.document.getElementsByClassName('deleteUser');
+  const deleteLinks = global.document.getElementsByClassName('deleteUser');
 
 	Array.from(deleteLinks, link => {
 		link.onclick = function(event) {
